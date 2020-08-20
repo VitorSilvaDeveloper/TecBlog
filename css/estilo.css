@@ -1,0 +1,138 @@
+/*
+    formatação geral
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F5F5F5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 
+    formatação cabeçalho
+*/
+
+#cabecalho {
+    text-align: center;
+
+    background-color: #eec617;
+}
+
+#cabecalho, #menu {
+    padding: 15px;
+}
+
+#logo {
+    font-size: 50px;
+    color: rgb(87, 85, 85);
+}
+#blog{
+    font-size: 50px;
+    color: white;
+}
+
+.links-menu {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.links-menu:hover {
+    background-color: white;
+    color: #eec617
+}
+.links-menu:active {
+    color: white;
+    background-color: #eec617 ;
+}
+
+/* 
+    formatação area principal
+*/
+
+#principal {
+    padding: 15px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#postagens {
+    background: white;
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    background: white;
+    width:240px;
+    float: right 
+}
+
+#rodape {
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    background: #ccc;
+    color: white;
+}
+
+
+/*
+    Formatação da area de postagem
+*/
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #eec617;
+}
+
+#principal a:hover {
+    text-decoration: underline;
+}
+
+
+/*
+    formatação de area lateral
+*/
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.titulo-lateral {
+    color: #565656;
+    background: #eec617;
+    padding: 2px;
+    margin: 5px;
+}
+
+.postagem-lateral {
+    font-size: 0.95em;
+}
+
+li {
+    margin: 5px;
+    padding: 3px;
+    list-style: none;
+}
+
+.link-lateral {
+    color: #eec617;
+}
